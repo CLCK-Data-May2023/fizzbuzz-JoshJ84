@@ -9,4 +9,3 @@ while x < 101:
     else:
         print(x)
     x += 1
-
