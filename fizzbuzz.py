@@ -1,4 +1,4 @@
- x = 1
+x = 1
 while x < 101:
     if x % 3 == 0 and x % 5 == 0:
         print("FizzBuzz")
