@@ -1,11 +1,15 @@
-x = 1
-while x < 101:
-    if x % 3 == 0 and x % 5 == 0:
+def fizzBuzz(s):
+    if s % 3 == 0 and s % 5 == 0:
         print("FizzBuzz")
-    elif x % 3 == 0:
+    elif s % 3 == 0:
         print("Fizz")
-    elif x % 5 == 0:
+    elif s % 5 == 0:
         print("Buzz")
+    elif s % 3 == 0 and s % 5 == 0:
+        print("FizzBuzz")
     else:
-        print(x)
-    x += 1
+        print(s)
+
+
+for i in range(1, 101):
+    fizzBuzz(i)
